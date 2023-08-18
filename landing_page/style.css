@@ -1,0 +1,234 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+.landingpage {
+}
+.sociallink ul {
+  display: flex;
+
+  gap: 15px;
+}
+.sociallink ul li {
+  list-style: none;
+}
+.sociallink ul li a {
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #e250ad;
+}
+.mob ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.mob ul li {
+  list-style: none;
+}
+.mob span {
+  margin-left: 10px;
+}
+.contact button {
+    font-size: 17px;
+    letter-spacing: 2px;
+  background-color: transparent;
+    font-family: "Oswald";
+    font-weight: 500;
+    border-radius: 40px;
+    padding: 9px 16px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+
+.secondnav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 9999999999999;
+  background-color: #fff !important;
+
+  padding-top: 0 !important;
+  box-shadow: 0 0 8px grey;
+  position: sticky;
+  top: 0px;
+
+ 
+
+}
+.btparttwo ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.images img {
+  width: 250px;
+}
+.btparttwo ul li {
+  list-style-type: none;
+  text-transform: capitalize;
+ 
+}
+.fa-solid  {
+font-size: 20px;
+padding: 30px 10px;
+
+
+}
+#search{
+    background-color: black;
+    color: white;
+}
+/* ---third section----- */
+.thirdsec .backgroundimg{
+   transform: translateY(50%);
+    padding-left: 2%;
+    border-left: 4px solid transparent;
+    border-image: linear-gradient(to bottom, #feb65c 0%, #de42ba 100%);
+    border-image-slice: 1;
+    margin-left: 82px;
+    font-family: 'Bebas Neue', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+}
+.thirdsec{
+    background-image: url(./image/slide1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 390px;
+}
+
+
+.backgroundimg h3{
+    text-transform: uppercase;
+    color: white;
+}
+.backgroundimg  P{
+    margin-top: 20px;
+    color: white;
+}
+.backgroundimg .BTN{
+    margin-top: 20px;
+}
+.BTN .btn1{
+    font-size: 17px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-family: "Oswald";
+    font-weight: 500;
+    border-radius: 40px;
+    padding: 9px 16px;
+    display: inline-block;
+    background-image: linear-gradient(to right, #feb65c , #de42ba);
+    margin-right: 20px;
+}
+
+
+   
+
+.BTN .btn2{
+    font-size: 17px;
+    letter-spacing: 2px;
+  background-color: transparent;
+    font-family: "Oswald";
+    font-weight: 500;
+    border-radius: 40px;
+    padding: 9px 16px;
+    display: inline-block;
+    border: 2px solid #fff;
+    color: #fff;
+}
+/* ---section 4---- */
+.massagefour{
+    background-image: linear-gradient(to right, #feb65c , #df42b9);
+    width: 100%;
+    height: 200px;
+}
+.massagefour{
+    display: flex;
+    align-items: center;
+  justify-content: space-evenly;
+}
+.leftse5 p .fa-solid {
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 14px 14px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+}
+.btsec5 #m-r{
+    margin-right: 15px;
+}
+.leftse5 p{
+    margin-top: 10px;
+}
+/* -----about---- */
+.about{
+    background-image: url(./image/aboutusbg.png);
+    background-size: cover;
+    width: 100%;
+ 
+    display: flex;
+align-items: center;
+justify-content: space-evenly;
+margin-top: 150px;
+flex-wrap: wrap;
+
+
+
+}
+.aboutus{
+flex-basis: 70%;
+}
+.aboutus-img {
+  flex-basis: 28%;
+}
+.aboutus h2{
+    text-transform: uppercase;
+    position: relative;
+}
+.aboutus h2::after{
+    content: '';
+    width: 10%;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 3px;
+    background-color: red;
+}
+.aboutus  p{
+    margin-top: 20px;
+}
+/* ----service---- */
+
+.servicelist1{
+    display: flex;
+ justify-content: space-evenly;
+ margin-top: 30px;
+ align-items: center;
+ flex-wrap: wrap;
+}
+.servicelist{
+    margin-top: 50px;
+    background-image: url(./image/servicesbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.serviceh {
+    padding-left: 7%;
+}
+footer p{
+  color: white;
+  background-color: #000000;
+  text-align: center;
+}
